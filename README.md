@@ -6,7 +6,7 @@ synchronizable solution for state management and database.
 
 [dust]: https://github.com/Parkour-Labs/dust.git
 
-### Download:
+### Download
 
 Clone the repository to your local disk with the `-r` flag, since we have not
 yet released `dust` to [pub.dev][pdv], you will have to install the package
@@ -25,7 +25,7 @@ git submodule update --init --recursive
 
 [pdv]: https://pub.dev/
 
-### Installation:
+### Installation
 
 Please check out that you have `cargo` installed on your devices, as well as
 the [compilation targets][cpt] correctly installed.
@@ -41,3 +41,7 @@ flutter run
 ```
 
 And (theoretically) a simple todo-list app would show up!
+
+### Demo
+
+![demo](assets/demo.gif)
