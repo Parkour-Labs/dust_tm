@@ -28,9 +28,6 @@ abstract class Todo with _$Todo {
     @Ln(backTo: 'parent') List<Todo> children,
   }) = _Todo;
 
-  /// Lists all the [Todo] nodes.
-  static NodesByLabel<Todo> all() => const $TodoRepository().all();
-
   /// Returns true if [this] [Todo] is a descendant of [other], meaning that
   /// [other] is either the parent of [this], or the parent of the parent of
   /// [this], and so on.
@@ -50,4 +47,3 @@ abstract class Todo with _$Todo {
 
   set isCompleted(bool value) => isCompleted$.set(value);
 }
-
